@@ -1,6 +1,6 @@
-# Witch in The Rain
+# Umazing
 
-## Written Archives
+## Umamusume Pretty Derby
 
 - **Version**: 2025.7.26
 - **Status**: In Development
