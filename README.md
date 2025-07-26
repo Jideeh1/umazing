@@ -6,11 +6,11 @@
 - **Status**: In Development
 - **Developers**: [Jideeh1](https://github.com/Jideeh1)
 
-The goal of this project is to make a functional archive of Witch in The Rain with the agenda of having the convenience to access different stories written by us without the hassle of navigating through our drive.
+Fyi, I lost to a bet and now I have to make an archive of Umamusume Pretty Derby but WITHOUT using any API. Yeah, life's miserable. I'm gonna pour my heart out with this project, so maybe support me at [kofi!](https://ko-fi.com/Manage/)
 
 読んでいただきありがとうございます　－　 JD
 
-Live demo under this link: https://witr-archive.netlify.app/pages/newhome
+Live demo under this link: 
 
 ### Resources Used
 
