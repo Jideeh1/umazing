@@ -2,7 +2,7 @@
 
 ## Written Archives
 
-- **Version**: 2025.7.25
+- **Version**: 2025.7.26
 - **Status**: In Development
 - **Developers**: [Jideeh1](https://github.com/Jideeh1)
 
