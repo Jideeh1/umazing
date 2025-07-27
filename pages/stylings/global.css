@@ -1,0 +1,36 @@
+* {
+    transition: all .3s ease-in-out;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::selection {
+  background: #80008060;
+  color: rgb(255, 176, 244);
+}
+
+.background {
+    background-size: contain;
+    position: absolute;
+
+    filter: blur(5px);
+    width: 100vw;
+    z-index: -1;
+}
+
+main {
+    flex-direction: column;
+    display: flex;
+
+    .logo {
+        margin: 3cqw auto;
+        width: 30cqw;
+    }
+
+}
