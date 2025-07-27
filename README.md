@@ -2,7 +2,7 @@
 
 ## Umamusume Pretty Derby
 
-- **Version**: 2025.7.26
+- **Version**: 2025.7.27
 - **Status**: In Development
 - **Developers**: [Jideeh1](https://github.com/Jideeh1)
 
