@@ -80,6 +80,7 @@ main {
         .nav-buttons {
             display: inherit;
             gap: inherit;
+            margin: auto 0;
 
             a {
                 text-decoration: none;
@@ -91,18 +92,22 @@ main {
             a:active {
                 color: #fffefe;
             }
+        }
 
-           a {
-             span {
+        .settings {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+            span {
                 cursor: pointer;
                 animation: none;
             }
 
             span:hover {
-                animation: spin 1s;
+                animation: spin 2s infinite ease-in-out;
+                color: #fffefe;
             }
-           }
-
         }
     }
 
