@@ -13,8 +13,8 @@
 }
 
 ::selection {
-  background: #80008060;
-  color: rgb(255, 176, 244);
+  background: #80004660;
+  color: rgb(242, 176, 255);
 }
 
 .material-symbols-outlined {
@@ -54,16 +54,18 @@ main {
         justify-content: space-between;
         margin: 2cqw auto;
         display: flex;
+
+        padding: 0 15cqw;
         gap: 1.5cqw;
         width: 100%;
-        padding: 0 10cqw;
         
         .logo {
             filter: grayscale(1);
             transform: scale(1);
             cursor: pointer;
-            height: 1.5cqw;
             animation: none;
+            margin: auto 0;
+            height: 1.5cqw;
         }
 
         .logo:hover {
@@ -96,12 +98,15 @@ main {
 
         .settings {
             background-color: transparent;
-            border: none;
             cursor: pointer;
+            border: none;
+
 
             span {
                 cursor: pointer;
                 animation: none;
+
+                font-size: 1.5cqw;
             }
 
             span:hover {
@@ -111,4 +116,34 @@ main {
         }
     }
 
+    .hero {
+        position: absolute;
+        margin: 0 auto;
+
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+
+        img {
+            filter: brightness(.5);
+            width: 35cqw;
+        }
+    }
+
+    .player {
+        background-color: rgba(255, 255, 255, .05);
+        align-self: center;
+        position: fixed;
+
+        margin-bottom: 1.5cqw;
+        border-radius: 3cqw;
+        height: 10vh;
+        width: 60vw;
+        bottom: 0;
+    }
+
+}
+
+section {
+    height: 100vh;
 }
