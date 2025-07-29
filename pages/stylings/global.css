@@ -26,11 +26,181 @@
 }
 
 body {
-    background-color: #0a0d0f;
+    background-color: #f4f4f4;
 }
 
+.background {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: -1;
+    opacity: .3;
+    object-position: 50% 0%;
+}
+
+.background {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: -1;
+    opacity: 1;
+    filter: blur(5px);
+    opacity: 1;
+    object-position: 50% 0%;
+}
 
 main {
+    flex-direction: column;
+    display: flex;
+
+    
+    nav {
+        justify-content: space-between;
+        margin: 2cqw auto;
+        display: flex;
+
+        padding: 0 15cqw;
+        gap: 1.5cqw;
+        width: 100%;
+        
+        .logo {
+            filter: grayscale(1);
+            transform: scale(1);
+            cursor: pointer;
+            animation: none;
+            margin: auto 0;
+            height: 1.5cqw;
+        }
+
+        .logo:hover {
+            animation: wiggle 1s infinite;
+            filter: grayscale(0);
+        }
+
+        .logo:active,
+        .logo:focus {
+            transform: scale(.80);
+            filter: grayscale(0);
+        }
+
+        .nav-buttons {
+            display: inherit;
+            gap: inherit;
+            margin: auto 0;
+
+            a {
+                text-decoration: none;
+                font-size: 1cqw;
+            }
+
+            a:hover,
+            a:focus,
+            a:active {
+                color: #212121;
+            }
+        }
+
+        .settings {
+            background-color: transparent;
+            cursor: pointer;
+            border: none;
+
+
+            span {
+                cursor: pointer;
+                animation: none;
+
+                font-size: 1.5cqw;
+            }
+
+            span:hover {
+                animation: spin 2s infinite ease-in-out;
+                color: #212121;
+            }
+        }
+    }
+
+    section {
+      display: flex;
+      justify-content: center;
+      padding: 0cqw 5cqw;
+
+      aside {
+        width: 45cqw;
+        height: 80vh;
+        background-color: red;
+        padding: 1cqw;
+
+        .characters-con {
+          height: 60%;
+          background: white;
+          border-radius: 1cqw;
+        }
+
+        footer {
+          display: flex;
+          padding: 1cqw 0;
+          height: 35vh;
+
+          .banners {
+            flex-direction: column;
+            width: 50%;
+            padding: 1cqw;
+
+            img {
+              height: 50%;
+            }
+
+            span {
+              flex-direction: row;
+              display: flex;
+              justify-content: space-between;
+              
+              h1 {
+                color: #212121;
+                font-weight: 500;
+                margin: auto 0;
+              }
+              
+              h3 {
+                margin: auto 0;
+                color: #212121;
+                font-weight: 500;
+                font-size: .8cqw;
+                cursor: pointer;
+              }
+            }
+          }
+
+          .database {
+            width: 50%;
+            background-color: #969093;
+            border-radius: 1cqw;
+          }
+        }
+      }
+
+      article {
+        width: 35vw;
+        height: 80vh;
+        background-color: blue;
+      }
+
+    }
 
 }
 
