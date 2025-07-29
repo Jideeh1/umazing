@@ -19,6 +19,8 @@ Live demo under this link:
 - [Vanilla-tilt.js](https://micku7zu.github.io/vanilla-tilt.js/)
 - [GameTora](https://gametora.com/umamusume)
 - [Umapyoi.net](https://umapyoi.net/)
+- [Official JP Website](https://umamusume.jp)
+- [Official Website](https://umamusume.com)
 
 ## License
 
